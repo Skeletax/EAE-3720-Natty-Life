@@ -1,7 +1,10 @@
 function scr_move_jump_collide(){
 	//Set up inputs
 	x_dir = right - left;
-	if (x_dir != 0) image_xscale = x_dir;
+	if (x_dir != 0) {
+		image_xscale = x_dir;
+		dir = x_dir;
+	}
 	if jump && place_meeting(x,y+1,env_ground){ 
 		yspd -= jumppwr;
 		onGround = false;

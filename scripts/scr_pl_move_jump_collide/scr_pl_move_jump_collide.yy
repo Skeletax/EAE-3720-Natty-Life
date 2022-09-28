@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_move_jump_collide",
+  "name": "scr_pl_move_jump_collide",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

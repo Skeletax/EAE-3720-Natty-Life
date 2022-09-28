@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_update_counters",
+  "name": "scr_pl_attack",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

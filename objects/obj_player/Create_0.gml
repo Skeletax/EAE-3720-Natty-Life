@@ -2,6 +2,7 @@ left = 0;
 right = 0;
 up = 0;
 down = 0;
+dir = 1;
 
 xspd = 6;
 yspd = 0;
