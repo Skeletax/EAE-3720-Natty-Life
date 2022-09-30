@@ -16,6 +16,7 @@
     {"id":{"name":"scr_pl_move_jump_collide","path":"scripts/scr_pl_move_jump_collide/scr_pl_move_jump_collide.yy",},"order":1,},
     {"id":{"name":"scr_pl_input","path":"scripts/scr_pl_input/scr_pl_input.yy",},"order":0,},
     {"id":{"name":"scr_proj_collision","path":"scripts/scr_proj_collision/scr_proj_collision.yy",},"order":5,},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":5,},
     {"id":{"name":"env_ground_destroyable","path":"objects/env_ground_destroyable/env_ground_destroyable.yy",},"order":4,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":2,},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},"order":3,},
