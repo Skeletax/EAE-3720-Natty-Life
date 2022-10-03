@@ -8,7 +8,7 @@ xspd = 6;
 yspd = 0;
 grav = 1;
 jump = 0;
-jumppwr = 15;
+jumppwr = 17;
 onGround = true;
 
 atk = 0;
