@@ -1,4 +1,4 @@
-xspd = 3;
+xspd = 2;
 yspd = 0;
 grav = 1;
 jump = 0;
@@ -11,6 +11,8 @@ atkTimeCounter = 0;
 atkCooldown = 50;
 atkCooldownCounter = 0;
 
-hp = 50;
+hp = 25;
+maxhp = 25;
+damage = 25;
 
 x_dir = -1;

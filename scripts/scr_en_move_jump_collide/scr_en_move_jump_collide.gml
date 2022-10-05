@@ -9,9 +9,13 @@ function scr_en_move_jump_collide(){
 	}
 
 	//x movement and collision
-	if place_meeting(x + xspd * x_dir,y,env_ground) { //If colliding with a wall
+	if place_meeting(x + xspd * x_dir, y, env_ground){ //If colliding with a wall
 		while !place_meeting(x+x_dir,y,env_ground) x+=x_dir
-		x_dir = 0;
+		x_dir *= -1;
+	}else if place_meeting(x + xspd * x_dir, y, obj_enemy){
+		var inst = instance_place(x + xspd * x_dir, y, obj_enemy);
+		x_dir *= -1;
+		inst.x_dir = x_dir * -1;
 	}
 	x += xspd * x_dir;
 

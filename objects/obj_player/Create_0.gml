@@ -3,6 +3,9 @@ right = 0;
 up = 0;
 down = 0;
 
+hp = 50;
+maxhp = 50;
+
 dir = 1;
 
 xspd = 6;

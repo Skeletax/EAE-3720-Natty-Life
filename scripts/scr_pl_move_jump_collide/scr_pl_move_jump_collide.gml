@@ -17,7 +17,14 @@ function scr_pl_move_jump_collide(){
 	}
 	x += xspd * x_dir;
 
-	//y collisions
+
+	//y collisions with enemy
+	if (place_meeting(x, y + yspd + 1, en_basic) && !onGround && yspd > 0){
+		var inst = instance_place(x, y + yspd + 1, en_basic);
+		scr_deal_damage(inst, 25);
+		yspd *= -1;
+	}
+	//y collisions with environment
 	if (place_meeting(x,y + yspd + 1,env_ground) && !onGround && yspd > 0) { //If landing
 		while !place_meeting(x,y+1,env_ground) y++;
 		yspd = 0;
