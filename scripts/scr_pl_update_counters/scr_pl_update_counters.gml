@@ -1,4 +1,4 @@
-function scr_update_counters(){
+function scr_pl_update_counters(){
 	if (atkTimeCounter > 0){
 		atkTimeCounter--;
 		if (atkTimeCounter == 0)

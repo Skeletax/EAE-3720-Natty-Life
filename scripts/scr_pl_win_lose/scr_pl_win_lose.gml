@@ -1,4 +1,4 @@
-function scr_win_lose(){
+function scr_pl_win_lose(){
 	if (false){
 		win = true;
 		lose = false;

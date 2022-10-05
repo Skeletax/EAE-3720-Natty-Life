@@ -1,4 +1,4 @@
-function scr_attack(){
+function scr_pl_attack(){
 	if (atk && atkCooldownCounter == 0){
 		atkTimeCounter = atkTime;
 		atkCooldownCounter = atkCooldown;

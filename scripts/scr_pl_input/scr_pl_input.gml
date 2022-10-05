@@ -1,4 +1,4 @@
-function scr_input(){
+function scr_pl_input(){
 	if !win && !lose {
 		left =  keyboard_check(vk_left) || keyboard_check(ord("A"));
 		right = keyboard_check(vk_right) || keyboard_check(ord("D"));
