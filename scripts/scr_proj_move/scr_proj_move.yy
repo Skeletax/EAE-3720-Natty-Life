@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_set_orient",
+  "name": "scr_proj_move",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

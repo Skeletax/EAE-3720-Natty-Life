@@ -1,1 +1,1 @@
-scr_set_orient();
+scr_pl_arm_set_orient();

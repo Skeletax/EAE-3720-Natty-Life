@@ -1,4 +1,6 @@
-speed = 1;
-proj_dir = 1;
+xspd = 1;
+yspd = 1;
+grav = 0.25;
+xdir = 1;
 
 damage = 25;
