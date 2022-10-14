@@ -5,6 +5,31 @@ function scr_pl_move_jump_collide(){
 		image_xscale = x_dir;
 		dir = x_dir;
 	}
+	if (down == 1){
+		facing = 4;
+		if (lastface != 3){
+			image_index = 3;
+			lastface = 3;
+		}
+	}if (up == 1){
+		facing = 3;
+		if (lastface != 2){
+			image_index = 2;
+			lastface = 2;
+		}
+	}if (left == 1){
+		facing = 2;
+		if (lastface != 0){
+			image_index = 0;
+			lastface = 0;
+		}
+	}if (right == 1){
+		facing = 1;
+		if (lastface != 0){
+			image_index = 0;
+			lastface = 0;
+		}
+	}
 	if jump && place_meeting(x,y+1,env_ground){ 
 		yspd -= jumppwr;
 		onGround = false;

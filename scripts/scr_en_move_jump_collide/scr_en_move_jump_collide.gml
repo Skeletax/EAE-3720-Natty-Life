@@ -1,7 +1,7 @@
 function scr_en_move_jump_collide(){
-	if (x_dir != 0) {
-		image_xscale = x_dir;
-		dir = x_dir;
+	if (xdir != 0) {
+		image_xscale = xdir;
+		dir = xdir;
 	}
 	if jump && place_meeting(x,y+1,env_ground){ 
 		yspd -= jumppwr;
@@ -9,15 +9,15 @@ function scr_en_move_jump_collide(){
 	}
 
 	//x movement and collision
-	if place_meeting(x + xspd * x_dir, y, env_ground){ //If colliding with a wall
-		while !place_meeting(x+x_dir,y,env_ground) x+=x_dir
-		x_dir *= -1;
-	}else if place_meeting(x + xspd * x_dir, y, obj_enemy){
-		var inst = instance_place(x + xspd * x_dir, y, obj_enemy);
-		x_dir *= -1;
-		inst.x_dir = x_dir * -1;
+	if place_meeting(x + xspd * xdir, y, env_ground){ //If colliding with a wall
+		while !place_meeting(x+xdir,y,env_ground) x+=xdir
+		xdir *= -1;
+	}else if place_meeting(x + xspd * xdir, y, obj_enemy){
+		var inst = instance_place(x + xspd * xdir, y, obj_enemy);
+		xdir *= -1;
+		inst.xdir = xdir * -1;
 	}
-	x += xspd * x_dir;
+	x += xspd * xdir;
 
 	//y collisions
 	if (place_meeting(x,y + yspd + 1,env_ground) && !onGround && yspd > 0) { //If landing

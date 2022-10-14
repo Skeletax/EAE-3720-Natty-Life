@@ -15,4 +15,4 @@ hp = 25;
 maxhp = 25;
 damage = 25;
 
-x_dir = -1;
+xdir = -1;

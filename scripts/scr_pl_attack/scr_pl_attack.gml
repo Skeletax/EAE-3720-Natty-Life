@@ -1,5 +1,5 @@
 function scr_pl_attack(){
-	if (atk && atkCooldownCounter == 0){
+	if (atk && atkCooldownCounter == 0 && blk == 0){
 		atkTimeCounter = atkTime;
 		atkCooldownCounter = atkCooldown;
 		image_index = 1;
@@ -7,7 +7,7 @@ function scr_pl_attack(){
 		with (proj){
 			direction = other.arm.image_angle;
 			image_angle = other.arm.image_angle;
-			var spd = 8;
+			var spd = other.projspd;
 			xspd = spd * cos(pi * image_angle / 180);
 			yspd = -spd * sin(pi * image_angle / 180);
 			if (image_angle > 90 && image_angle < 270)

@@ -37,6 +37,7 @@
         "GMObject",
       ],},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"arm","varType":5,"value":"obj_player_arm","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"shield","varType":5,"value":"obj_player_block","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {

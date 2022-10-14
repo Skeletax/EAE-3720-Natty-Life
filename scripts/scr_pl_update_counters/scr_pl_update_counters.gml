@@ -5,4 +5,13 @@ function scr_pl_update_counters(){
 			image_index = 0;
 	}else if (atkCooldownCounter > 0)
 		atkCooldownCounter--;
+		
+	if (blkTimeCounter > 0){
+		blkTimeCounter--;
+		if (blkTimeCounter == 0){
+			image_index = 0;
+			xspd /= blkspdreduction;
+		}
+	}else if (blkCooldownCounter > 0)
+		blkCooldownCounter--;
 }
