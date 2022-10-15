@@ -7,7 +7,7 @@ function scr_proj_collision(){
 		instance_destroy(self);
 	}else if (place_meeting(x + xspd, y + yspd, obj_enemy)){
 		var inst = instance_place(x + xspd, y + yspd, obj_enemy);
-		scr_deal_damage(inst, damage);
+		scr_deal_damage(inst, damage, 1);
 		instance_destroy(self);
 	}
 }
