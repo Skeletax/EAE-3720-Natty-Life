@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "en_tough",
   "spriteId": {
-    "name": "spr_en_basic",
-    "path": "sprites/spr_en_basic/spr_en_basic.yy",
+    "name": "spr_en",
+    "path": "sprites/spr_en/spr_en.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,10 +29,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"default_image_index","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"1",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

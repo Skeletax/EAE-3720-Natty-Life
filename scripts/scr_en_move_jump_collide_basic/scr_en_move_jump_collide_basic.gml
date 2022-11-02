@@ -1,4 +1,4 @@
-function scr_en_move_jump_collide(){
+function scr_en_move_jump_collide_basic(){
 	if (xdir != 0) {
 		image_xscale = xdir;
 		dir = xdir;
