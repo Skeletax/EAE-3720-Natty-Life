@@ -13,6 +13,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_en_basic","path":"sprites/spr_en_basic/spr_en_basic.yy",},"order":11,},
     {"id":{"name":"cm_camera","path":"objects/cm_camera/cm_camera.yy",},"order":2,},
+    {"id":{"name":"en_tough","path":"objects/en_tough/en_tough.yy",},"order":12,},
     {"id":{"name":"spr_npc","path":"sprites/spr_npc/spr_npc.yy",},"order":6,},
     {"id":{"name":"scr_en_update_counters","path":"scripts/scr_en_update_counters/scr_en_update_counters.yy",},"order":9,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":5,},

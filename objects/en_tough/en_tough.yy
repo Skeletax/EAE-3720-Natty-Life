@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "en_basic",
+  "name": "en_tough",
   "spriteId": {
     "name": "spr_en_basic",
     "path": "sprites/spr_en_basic/spr_en_basic.yy",
