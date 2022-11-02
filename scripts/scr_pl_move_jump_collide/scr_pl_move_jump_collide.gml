@@ -38,9 +38,8 @@ function scr_pl_move_jump_collide(){
 	//x movement and collision
 	if place_meeting(x + xspd * x_dir,y,env_ground) { //If colliding with a wall
 		while !place_meeting(x+x_dir,y,env_ground) x+=x_dir
-		x_dir = 0;
-	}
-	x += xspd * x_dir;
+	}else
+		x += xspd * x_dir;
 
 
 	//y collisions with enemy

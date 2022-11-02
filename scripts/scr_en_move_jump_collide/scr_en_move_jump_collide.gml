@@ -20,7 +20,10 @@ function scr_en_move_jump_collide(){
 	x += xspd * xdir;
 
 	//y collisions
-	if (place_meeting(x,y + yspd + 1,env_ground) && !onGround && yspd > 0) { //If landing
+	if (place_meeting(x,y + yspd + 1, obj_enemy)){ //Landing on another enemy
+		while !place_meeting(x,y+1,obj_enemy) y++;
+		yspd = 0;
+	}else if (place_meeting(x,y + yspd + 1,env_ground) && !onGround && yspd > 0) { //If landing
 		while !place_meeting(x,y+1,env_ground) y++;
 		yspd = 0;
 		onGround = true;
