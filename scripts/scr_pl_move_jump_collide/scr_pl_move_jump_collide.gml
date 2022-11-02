@@ -45,8 +45,10 @@ function scr_pl_move_jump_collide(){
 	//y collisions with enemy
 	if (place_meeting(x, y + yspd + 1, obj_enemy) && !onGround && yspd > 0){
 		var inst = instance_place(x, y + yspd + 1, obj_enemy);
-		scr_deal_damage(inst, 25, 0);
-		yspd *= -1;
+		if (inst.y > y){
+			scr_deal_damage(inst, 25, 0);
+			yspd *= -1;
+		}
 	}
 	//y collisions with environment
 	if (place_meeting(x,y + yspd + 1,env_ground) && !onGround && yspd > 0) { //If landing

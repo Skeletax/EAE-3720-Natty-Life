@@ -19,5 +19,13 @@ function scr_en_step(){
 		scr_en_lob();
 
 		scr_en_update_counters();
+	}else if (object_index == en_mimic){
+		jump = player.jump;
+		
+		scr_en_move_jump_collide_smart();
+
+		scr_en_check_player_collision();
+
+		scr_en_update_counters();
 	}
 }

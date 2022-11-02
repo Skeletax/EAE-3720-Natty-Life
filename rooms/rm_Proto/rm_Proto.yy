@@ -39,6 +39,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62F0824F","properties":[],"isDnd":false,"objectId":{"name":"en_tough","path":"objects/en_tough/en_tough.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2176.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_259347F6","properties":[],"isDnd":false,"objectId":{"name":"en_lobber","path":"objects/en_lobber/en_lobber.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2240.0,"y":864.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_75D7E222","properties":[],"isDnd":false,"objectId":{"name":"en_lobber","path":"objects/en_lobber/en_lobber.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2144.0,"y":992.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7D5924C3","properties":[],"isDnd":false,"objectId":{"name":"en_mimic","path":"objects/en_mimic/en_mimic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2496.0,"y":992.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Destroyables","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_13550818","properties":[],"isDnd":false,"objectId":{"name":"env_ground_destroyable","path":"objects/env_ground_destroyable/env_ground_destroyable.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1312.0,"y":512.0,},
@@ -645,8 +646,9 @@
     {"name":"inst_48499742","path":"rooms/rm_Proto/rm_Proto.yy",},
     {"name":"inst_56279343","path":"rooms/rm_Proto/rm_Proto.yy",},
     {"name":"inst_B8B55F8","path":"rooms/rm_Proto/rm_Proto.yy",},
-    {"name":"inst_259347F6","path":"rooms/rm_Proto/rm_Proto.yy",},
     {"name":"inst_75D7E222","path":"rooms/rm_Proto/rm_Proto.yy",},
+    {"name":"inst_259347F6","path":"rooms/rm_Proto/rm_Proto.yy",},
+    {"name":"inst_7D5924C3","path":"rooms/rm_Proto/rm_Proto.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -1,4 +1,3 @@
-xspd = 2;
 yspd = 0;
 grav = 1;
 jump = 0;
@@ -16,3 +15,5 @@ maxhp = 25;
 damage = 25;
 
 xdir = -1;
+
+image_index = default_image_index;

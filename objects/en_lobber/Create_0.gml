@@ -1,4 +1,3 @@
-xspd = 0.5;
 yspd = 0;
 grav = 1;
 jump = 0;
@@ -8,7 +7,7 @@ onGround = true;
 atk = 0;
 atkTime = 10;
 atkTimeCounter = 0;
-atkCooldown = 50;
+atkCooldown = 125;
 atkCooldownCounter = 0;
 projspd = 10;
 
@@ -18,4 +17,4 @@ damage = 25;
 
 xdir = -1;
 
-image_index = 3;
+image_index = default_image_index;

@@ -16,7 +16,7 @@ function scr_en_move_jump_collide_smart(){
 		var inst = instance_place(x + xspd * xdir, y, obj_enemy);
 		xdir *= -1;
 		inst.xdir = xdir * -1;
-	}else if !place_meeting(x + (xspd + sprite_get_width(sprite_index)) * xdir, y + 1, env_ground){ //If about to fall off a ledge
+	}else if (!place_meeting(x + (xspd + sprite_get_width(sprite_index)) * xdir, y + 1, env_ground) && onGround){ //If about to fall off a ledge
 		while place_meeting(x+(xdir*sprite_get_width(sprite_index)),y + 1,env_ground) x+=xdir
 		xdir *= -1;
 	}
