@@ -4,9 +4,17 @@ function scr_pl_move_jump_collide(){
 	if (x_dir != 0) {
 		image_xscale = x_dir;
 		dir = x_dir;
-		walking = true;
-	}else
+		if ((!walking || onGround) && !audio_is_playing(snd_Walking_Dirt)){
+			audio_play_sound(snd_Walking_Dirt, 4, true);
+			walking = true;
+		}
+	}else if (walking || !onGround){
+		audio_stop_sound(snd_Walking_Dirt);
 		walking = false;
+	}
+	if (!onGround)
+		audio_stop_sound(snd_Walking_Dirt);
+		
 	if (down == 1){
 		facing = 4;
 		if (lastface != 3){
