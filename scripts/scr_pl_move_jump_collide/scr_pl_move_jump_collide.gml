@@ -4,7 +4,9 @@ function scr_pl_move_jump_collide(){
 	if (x_dir != 0) {
 		image_xscale = x_dir;
 		dir = x_dir;
-	}
+		walking = true;
+	}else
+		walking = false;
 	if (down == 1){
 		facing = 4;
 		if (lastface != 3){

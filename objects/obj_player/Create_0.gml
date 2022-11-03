@@ -34,3 +34,15 @@ blkCount = 4;
 
 win = false;
 lose = false;
+loseframes = 6;
+loseframecount = 0;
+loseframestart = 15;
+despawn = false;
+despawntimer = 100;
+despawncounter = 0;
+
+walking = false;
+walkingframes = 10
+walkingframecount = 0;
+walkingframestart = 0;
+

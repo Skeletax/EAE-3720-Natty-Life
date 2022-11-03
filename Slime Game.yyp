@@ -20,6 +20,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_en_projectile_lob","path":"objects/obj_en_projectile_lob/obj_en_projectile_lob.yy",},"order":14,},
     {"id":{"name":"en_lobber","path":"objects/en_lobber/en_lobber.yy",},"order":13,},
+    {"id":{"name":"scr_pl_animate","path":"scripts/scr_pl_animate/scr_pl_animate.yy",},"order":25,},
     {"id":{"name":"en_mimic","path":"objects/en_mimic/en_mimic.yy",},"order":15,},
     {"id":{"name":"spr_en","path":"sprites/spr_en/spr_en.yy",},"order":11,},
     {"id":{"name":"cm_camera","path":"objects/cm_camera/cm_camera.yy",},"order":2,},
