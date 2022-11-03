@@ -3,8 +3,8 @@ right = 0;
 up = 0;
 down = 0;
 
-hp = 50;
-maxhp = 50;
+hp = 100;
+maxhp = 100;
 
 xdir = 1;
 facing = 1; //1 = right, 2 = left, 3 = up, 4 = down
