@@ -4,3 +4,4 @@ grav = 0.1;
 xdir = 1;
 
 damage = 25;
+audio_play_sound(snd_Shoot, 5, false);
