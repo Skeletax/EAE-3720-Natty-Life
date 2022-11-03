@@ -4,7 +4,9 @@
   "name": "Slime Game",
   "resources": [
     {"id":{"name":"scr_en_step","path":"scripts/scr_en_step/scr_en_step.yy",},"order":17,},
+    {"id":{"name":"obj_en_projectile_burst","path":"objects/obj_en_projectile_burst/obj_en_projectile_burst.yy",},"order":19,},
     {"id":{"name":"scr_en_proj_lob_move","path":"scripts/scr_en_proj_lob_move/scr_en_proj_lob_move.yy",},"order":21,},
+    {"id":{"name":"scr_en_burst_fire","path":"scripts/scr_en_burst_fire/scr_en_burst_fire.yy",},"order":24,},
     {"id":{"name":"en_magma","path":"objects/en_magma/en_magma.yy",},"order":16,},
     {"id":{"name":"spr_projectile","path":"sprites/spr_projectile/spr_projectile.yy",},"order":3,},
     {"id":{"name":"scr_en_move_jump_collide_smart","path":"scripts/scr_en_move_jump_collide_smart/scr_en_move_jump_collide_smart.yy",},"order":18,},
@@ -21,6 +23,7 @@
     {"id":{"name":"en_mimic","path":"objects/en_mimic/en_mimic.yy",},"order":15,},
     {"id":{"name":"spr_en","path":"sprites/spr_en/spr_en.yy",},"order":11,},
     {"id":{"name":"cm_camera","path":"objects/cm_camera/cm_camera.yy",},"order":2,},
+    {"id":{"name":"en_fly","path":"objects/en_fly/en_fly.yy",},"order":18,},
     {"id":{"name":"en_tough","path":"objects/en_tough/en_tough.yy",},"order":12,},
     {"id":{"name":"spr_npc","path":"sprites/spr_npc/spr_npc.yy",},"order":6,},
     {"id":{"name":"scr_en_update_counters","path":"scripts/scr_en_update_counters/scr_en_update_counters.yy",},"order":9,},
@@ -31,6 +34,7 @@
     {"id":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},"order":0,},
     {"id":{"name":"obj_player_arm","path":"objects/obj_player_arm/obj_player_arm.yy",},"order":8,},
     {"id":{"name":"spr_ground_destroyable","path":"sprites/spr_ground_destroyable/spr_ground_destroyable.yy",},"order":4,},
+    {"id":{"name":"spr_en_projectile_burst","path":"sprites/spr_en_projectile_burst/spr_en_projectile_burst.yy",},"order":17,},
     {"id":{"name":"scr_en_lob","path":"scripts/scr_en_lob/scr_en_lob.yy",},"order":19,},
     {"id":{"name":"scr_pl_block_move","path":"scripts/scr_pl_block_move/scr_pl_block_move.yy",},"order":15,},
     {"id":{"name":"scr_deal_damage","path":"scripts/scr_deal_damage/scr_deal_damage.yy",},"order":7,},
@@ -60,6 +64,7 @@
     {"id":{"name":"obj_player_block","path":"objects/obj_player_block/obj_player_block.yy",},"order":9,},
     {"id":{"name":"env_ground","path":"objects/env_ground/env_ground.yy",},"order":1,},
     {"id":{"name":"scr_pl_block_update_counters","path":"scripts/scr_pl_block_update_counters/scr_pl_block_update_counters.yy",},"order":16,},
+    {"id":{"name":"scr_en_move_fly","path":"scripts/scr_en_move_fly/scr_en_move_fly.yy",},"order":23,},
     {"id":{"name":"rm_Proto","path":"rooms/rm_Proto/rm_Proto.yy",},"order":0,},
   ],
   "Options": [
