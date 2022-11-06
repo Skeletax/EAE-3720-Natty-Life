@@ -14,6 +14,10 @@ function scr_pl_attack(){
 				xdir = -1;
 			else
 				xdir = 1;
+			image_angle -= 45;
+			xscale = other.projscale;
+			image_xscale = other.projscale;
+			image_yscale = other.projscale;
 		}
 	}
 }

@@ -4,11 +4,37 @@ function scr_deal_damage(target, damage, source){ //if the source is 1, then it 
 		if (variable_instance_exists(target, "obj_player_block"))
 			scr_pl_block_update_counters();
 		if (target.hp <= 0){
-			if (source == 1){
-				var drop = instance_create_layer(target.x, target.y, "Entities", obj_recruitable);
+			if (source.object_index == obj_projectile){
+				var drop = instance_create_layer(source.x, source.y, "Entities", obj_recruitable);
 				with (drop){
 					val = target.maxhp / 25;
-					sprite_index = target.sprite_index;
+					image_angle = -45;
+					image_xscale = target.player.projscale;
+					image_yscale = target.player.projscale;
+					var type = target.object_index;
+					switch (type){
+						case en_basic:
+							image_index = 1;
+							break;
+						case en_tough:
+							image_index = 2;
+							break;
+						case en_mimic:
+							image_index = 3;
+							break;
+						case en_lobber:
+							image_index = 4;
+							break;
+						case en_magma:
+							image_index = 5;
+							break;
+						case en_fly:
+							image_index = 6;
+							break;
+						default:
+							image_index = 0;
+							break;
+					}
 				}
 			}
 			if (target.object_index != obj_player)
