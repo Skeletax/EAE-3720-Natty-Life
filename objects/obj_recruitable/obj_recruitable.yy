@@ -9,10 +9,7 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_projectile_collision",
-    "path": "sprites/spr_projectile_collision/spr_projectile_collision.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

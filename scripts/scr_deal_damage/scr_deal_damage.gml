@@ -8,7 +8,7 @@ function scr_deal_damage(target, damage, source){ //if the source is 1, then it 
 				var drop = instance_create_layer(source.x, source.y, "Entities", obj_recruitable);
 				with (drop){
 					val = target.maxhp / 25;
-					image_angle = -45;
+					image_angle = source.image_angle;
 					image_xscale = target.player.projscale;
 					image_yscale = target.player.projscale;
 					var type = target.object_index;
