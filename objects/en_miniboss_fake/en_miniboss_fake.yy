@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "en_miniboss_fake",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_en_mini_fake",
+    "path": "sprites/spr_en_mini_fake/spr_en_mini_fake.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

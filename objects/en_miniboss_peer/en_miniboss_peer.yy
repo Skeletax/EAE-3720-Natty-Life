@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "en_miniboss_peer",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_en_mini_peer",
+    "path": "sprites/spr_en_mini_peer/spr_en_mini_peer.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
