@@ -4,5 +4,5 @@ if (instance_exists(player) && distance_to_object(player) < detectionRange && !a
 }
 	
 if (active && instance_exists(player))
-	scr_en_step();
+	scr_en_mini_step();
 	
