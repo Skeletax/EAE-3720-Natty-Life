@@ -1,5 +1,8 @@
 camWidth = 960;
 camHeight = 540;
+camView = view_camera[viewIndex];
+
+camera_set_view_pos(camView, x, y);
 
 track = true;
 miniboss = false;

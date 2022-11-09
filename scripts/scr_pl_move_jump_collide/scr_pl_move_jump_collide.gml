@@ -45,16 +45,25 @@ function scr_pl_move_jump_collide(){
 		onGround = false;
 	}
 
+	var potentialx = x + xspd * x_dir;
+	var potentialy = y + yspd;
+	var camleft = camera_get_view_x(camera.camView);
+	var camtop = camera_get_view_y(camera.camView);
+	var camright = camleft + camera_get_view_width(camera.camView);
+	var cambot = camtop + camera_get_view_height(camera.camView);
+
 	//x movement and collision
-	if place_meeting(x + xspd * x_dir,y,env_ground) { //If colliding with a wall
+	if place_meeting(potentialx,y,env_ground) { //If colliding with a wall
 		while !place_meeting(x+x_dir,y,env_ground) x+=x_dir
+	}else if (!point_in_rectangle(potentialx, camtop, camleft, camtop, camright, cambot)){
+		while (point_in_rectangle(x + x_dir, camtop, camleft, camtop, camright, cambot)) x+=x_dir;
 	}else
-		x += xspd * x_dir;
+		x = potentialx;
 
 
 	//y collisions with enemy
-	if (place_meeting(x, y + yspd + 1, obj_enemy) && !onGround && yspd > 0){
-		var inst = instance_place(x, y + yspd + 1, obj_enemy);
+	if (place_meeting(x, potentialy + 1, en_grunts) && !onGround && yspd > 0){
+		var inst = instance_place(x, potentialy + 1, en_grunts);
 		if (inst.y > y){
 			scr_deal_damage(inst, 25, self);
 			yspd *= -1;
@@ -65,8 +74,14 @@ function scr_pl_move_jump_collide(){
 		while !place_meeting(x,y+1,env_ground) y++;
 		yspd = 0;
 		onGround = true;
-	}
-	else if (place_meeting(x, y + yspd - 1, env_ground) && yspd < 0){ //If hitting head
+	}else if (!point_in_rectangle(camleft, potentialy - 1, camleft, camtop, camright, cambot)){
+		while (point_in_rectangle(camleft, y - 1, camleft, camtop, camright, cambot)) y--;
+		yspd = 0;
+		//show_message("Y: " + string(potentialy) + " Top: (" + string(camleft) + ", " + string(camtop) + ") Bottom: (" + string(camright) + ", " + string(cambot) + ")");
+	}else if (!point_in_rectangle(camleft, potentialy + 1, camleft, camtop, camright, cambot)){
+		while (point_in_rectangle(camleft, y + 1, camleft, camtop, camright, cambot)) y++;
+		yspd = 0;
+	}else if (place_meeting(x, y + yspd - 1, env_ground) && yspd < 0){ //If hitting head
 		while (!place_meeting(x, y - 1, env_ground)) y--;
 		yspd = 0;
 	}else if (!place_meeting(x, y + yspd + 1, env_ground) && onGround){ //Falling

@@ -5,7 +5,10 @@ if (despawn){
 }else if (!win && !lose){
 	scr_pl_input();
 
-	scr_pl_move_jump_collide();
+	if (!launched)
+		scr_pl_move_jump_collide();
+	else
+		scr_pl_launch();
 
 	scr_pl_block();
 

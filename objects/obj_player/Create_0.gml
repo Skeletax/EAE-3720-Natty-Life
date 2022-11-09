@@ -9,6 +9,11 @@ xdir = 1;
 facing = 1; //1 = right, 2 = left, 3 = up, 4 = down
 lastface = 1;
 
+launched = false;
+launchdir = 0;
+launchspdx = 5;
+launchspdy = 20;
+
 xspd = 6;
 yspd = 0;
 grav = 1;

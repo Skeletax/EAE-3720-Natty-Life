@@ -6,14 +6,14 @@ else if (track && !miniboss){
 
 	x = xCam;
 	y = yCam;
-	camera_set_view_pos(view_camera[0], xCam, yCam);
+	camera_set_view_pos(camView, xCam, yCam);
 }else if (miniboss && !reachMiniboss){
 	if (round(x) == minibossPos.x && round(y) == minibossPos.y)
 		reachMiniboss = true;
 		
 	x += xspd;
 	y += yspd;
-	camera_set_view_pos(view_camera[0], x, y);
+	camera_set_view_pos(camView, x, y);
 }
 
 scr_gm_input();
