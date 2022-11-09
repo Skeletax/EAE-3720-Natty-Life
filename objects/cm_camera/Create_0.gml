@@ -8,7 +8,7 @@ track = true;
 miniboss = false;
 reachMiniboss = false;
 
-minibossInitializeTime = 100;
+minibossInitializeTime = 75;
 initializeMiniboss = false;
 xspd = 0;
 yspd = 0;

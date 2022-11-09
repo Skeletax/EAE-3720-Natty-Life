@@ -77,7 +77,6 @@ function scr_pl_move_jump_collide(){
 	}else if (!point_in_rectangle(camleft, potentialy - 1, camleft, camtop, camright, cambot)){
 		while (point_in_rectangle(camleft, y - 1, camleft, camtop, camright, cambot)) y--;
 		yspd = 0;
-		//show_message("Y: " + string(potentialy) + " Top: (" + string(camleft) + ", " + string(camtop) + ") Bottom: (" + string(camright) + ", " + string(cambot) + ")");
 	}else if (!point_in_rectangle(camleft, potentialy + 1, camleft, camtop, camright, cambot)){
 		while (point_in_rectangle(camleft, y + 1, camleft, camtop, camright, cambot)) y++;
 		yspd = 0;
