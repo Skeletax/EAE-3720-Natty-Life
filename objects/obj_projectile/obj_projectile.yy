@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_projectile_generic",
+    "path": "objects/obj_projectile_generic/obj_projectile_generic.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

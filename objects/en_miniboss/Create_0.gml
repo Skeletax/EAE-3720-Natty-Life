@@ -1,5 +1,6 @@
 hpscale = 2;
-
+launchCooldown = 50;
+launchCooldownCounter = 0;
 
 
 

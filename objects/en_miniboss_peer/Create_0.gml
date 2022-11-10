@@ -12,7 +12,6 @@ atkTimeCounter = 0;
 atkCooldown = 50;
 atkCooldownCounter = 0;
 
-maxhp = 200;
 hp = maxhp;
 
 x_dir = 0;

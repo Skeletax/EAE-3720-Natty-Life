@@ -10,8 +10,7 @@ atkTimeCounter = 0;
 atkCooldown = 50;
 atkCooldownCounter = 0;
 
-hp = 50;
-maxhp = 50;
+hp = maxhp;
 damage = 37.5;
 
 xdir = -1;

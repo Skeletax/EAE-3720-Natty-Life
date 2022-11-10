@@ -29,24 +29,29 @@ function scr_pl_launch(){
 		}
 	}
 	//y collisions with environment
-	if (place_meeting(x,y + yspd + 1,env_ground) && !onGround && yspd > 0) { //If landing
+	if (place_meeting(x,y + yspd + 1,env_ground) && !onGround && yspd > 0) { //If landing on solid ground
 		while !place_meeting(x,y+1,env_ground) y++;
 		yspd = 0;
 		onGround = true;
 		launched = false;
-	}else if (!point_in_rectangle(camleft, potentialy - 1, camleft, camtop, camright, cambot)){
-		while (point_in_rectangle(camleft, y - 1, camleft, camtop, camright, cambot)) y--;
+	}else if (place_meeting(x,y + yspd + 1,env_ground_platform) && !place_meeting(x,y,env_ground_platform) && !onGround && yspd > 0) { //If landing on a platform
+		while !place_meeting(x,y+1,env_ground_platform) y++;
 		yspd = 0;
-	}else if (!point_in_rectangle(camleft, potentialy + 1, camleft, camtop, camright, cambot)){
+		onGround = true;
+		launched = false;
+	}else if (!point_in_rectangle(camleft, potentialy - 1 - sprite_height, camleft, camtop, camright, cambot) && yspd < 0){ //If falling below camera view
+		while (point_in_rectangle(camleft, y - 1 - sprite_height, camleft, camtop, camright, cambot)) y--;
+		yspd = 0;
+	}else if (!point_in_rectangle(camleft, potentialy + 1, camleft, camtop, camright, cambot) && yspd > 0){ //If moving above camera view
 		while (point_in_rectangle(camleft, y + 1, camleft, camtop, camright, cambot)) y++;
 		yspd = 0;
 	}else if (place_meeting(x, y + yspd - 1, env_ground) && yspd < 0){ //If hitting head
 		while (!place_meeting(x, y - 1, env_ground)) y--;
 		yspd = 0;
-	}else if (!place_meeting(x, y + yspd + 1, env_ground) && onGround){ //Falling
+	}else if (!place_meeting(x, y + yspd + 1, env_ground) && !place_meeting(x, y + yspd + 1, env_ground_platform) && onGround){ //Falling off solid ground
 		yspd = yspd + grav; 
 		onGround = false;
-	}else if (!place_meeting(x, y + yspd + 1, env_ground) && !onGround){
+	}else if (!onGround){
 		yspd = yspd + grav; 
 	}
 

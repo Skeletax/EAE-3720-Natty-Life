@@ -3,7 +3,7 @@ function scr_en_burst_fire(){
 		atkTimeCounter = atkTime;
 		atkCooldownCounter = atkCooldown;
 		//image_index = 1;
-		var proj1 = instance_create_layer(x, y - 5, "Entities", obj_en_projectile_burst);
+		var proj1 = instance_create_layer(x, y - 5, "Projectiles", obj_en_projectile_burst);
 		with (proj1){
 			direction = 45;
 			image_angle = direction;
@@ -15,7 +15,7 @@ function scr_en_burst_fire(){
 			else
 				xdir = 1;
 		}
-		var proj2 = instance_create_layer(x, y - 5, "Entities", obj_en_projectile_burst);
+		var proj2 = instance_create_layer(x, y - 5, "Projectiles", obj_en_projectile_burst);
 		with (proj2){
 			direction = 135;
 			image_angle = direction;
@@ -27,7 +27,7 @@ function scr_en_burst_fire(){
 			else
 				xdir = 1;
 		}
-		var proj3 = instance_create_layer(x, y - 5, "Entities", obj_en_projectile_burst);
+		var proj3 = instance_create_layer(x, y - 5, "Projectiles", obj_en_projectile_burst);
 		with (proj3){
 			direction = 225;
 			image_angle = direction;
@@ -39,7 +39,7 @@ function scr_en_burst_fire(){
 			else
 				xdir = 1;
 		}
-		var proj4 = instance_create_layer(x, y - 5, "Entities", obj_en_projectile_burst);
+		var proj4 = instance_create_layer(x, y - 5, "Projectiles", obj_en_projectile_burst);
 		with (proj4){
 			direction = 315;
 			image_angle = direction;

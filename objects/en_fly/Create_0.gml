@@ -7,7 +7,7 @@ jump = 0;
 jumppwr = 15;
 onGround = false;
 startingx = x;
-startingy = y;
+//startingy = y;
 
 atk = 0;
 atkTime = 10;
@@ -16,8 +16,7 @@ atkCooldown = 200;
 atkCooldownCounter = 0;
 projspd = 3;
 
-hp = 50;
-maxhp = 50;
+hp = maxhp;
 damage = 25;
 
 xdir = -1;

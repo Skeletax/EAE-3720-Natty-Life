@@ -43,6 +43,8 @@ function scr_deal_damage(target, damage, source){ //if the source is 1, then it 
 				target.lose = true;
 				instance_destroy(target.arm);
 			}
+		}else{
+			scr_hurt(target);
 		}
 	}
 }

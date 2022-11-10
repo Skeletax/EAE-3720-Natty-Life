@@ -3,6 +3,6 @@ if (instance_exists(player) && distance_to_object(player) < detectionRange && !a
 	player.camera.initializeMiniboss = true;
 }
 	
-if (active && instance_exists(player))
+if (active && instance_exists(player) && (!player.camera.miniboss || (player.camera.miniboss && player.camera.reachMiniboss)))
 	scr_en_mini_step();
 	

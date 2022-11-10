@@ -3,7 +3,7 @@ function scr_en_fireball(){
 		atkTimeCounter = atkTime;
 		atkCooldownCounter = atkCooldown;
 		//image_index = 1;
-		var proj = instance_create_layer(x, y - 5, "Entities", obj_en_projectile_fireball);
+		var proj = instance_create_layer(x, y - 5, "Projectiles", obj_en_projectile_fireball);
 		with (proj){
 			var xdist = other.player.x - other.x;
 			var ydist = other.player.y - (sprite_get_height(other.player.sprite_index)/2) - other.y;

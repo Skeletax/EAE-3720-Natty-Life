@@ -1,3 +1,5 @@
+minibossPos = instance_nearest(x, y, cm_miniboss_point);
+
 if (initializeMiniboss)
 	scr_cm_initialize_miniboss();
 else if (track && !miniboss){

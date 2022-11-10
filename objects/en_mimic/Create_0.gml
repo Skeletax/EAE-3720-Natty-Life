@@ -11,8 +11,7 @@ atkCooldown = 50;
 atkCooldownCounter = 0;
 projspd = 10;
 
-hp = 75;
-maxhp = 75;
+hp = maxhp;
 damage = 25;
 
 xdir = -1;
