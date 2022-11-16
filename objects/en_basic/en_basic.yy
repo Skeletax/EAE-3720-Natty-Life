@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "en_basic",
   "spriteId": {
-    "name": "spr_en",
-    "path": "sprites/spr_en/spr_en.yy",
+    "name": "spr_en_basic",
+    "path": "sprites/spr_en_basic/spr_en_basic.yy",
   },
   "solid": false,
   "visible": true,

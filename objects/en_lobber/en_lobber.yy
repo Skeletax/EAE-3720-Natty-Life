@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "en_lobber",
   "spriteId": {
-    "name": "spr_en",
-    "path": "sprites/spr_en/spr_en.yy",
+    "name": "spr_en_lobber",
+    "path": "sprites/spr_en_lobber/spr_en_lobber.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,6 +34,7 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"default_image_index","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"3",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"maxhp","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"50",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"xspd","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"1",},
   ],
   "parent": {
     "name": "Objects",
