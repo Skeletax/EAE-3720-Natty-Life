@@ -1,4 +1,4 @@
-function scr_deal_damage(target, damage, source){ //if the source is 1, then it is a recruitable attack. 0 will not recruit
+function scr_deal_damage(target, damage, source){ //if the source is a player projectile, then it is a recruitable attack. Anything else will not recruit
 	if (target.object_index != obj_player || (target.object_index == obj_player && !target.lose)){
 		target.hp -= damage;
 		if (variable_instance_exists(target, "obj_player_block"))
@@ -9,8 +9,8 @@ function scr_deal_damage(target, damage, source){ //if the source is 1, then it 
 				with (drop){
 					val = target.maxhp / 25;
 					image_angle = source.image_angle;
-					image_xscale = target.player.projscale;
-					image_yscale = target.player.projscale;
+					image_xscale = target.player.projscale * source.image_xscale;
+					image_yscale = target.player.projscale * source.image_yscale;
 					var type = target.object_index;
 					switch (type){
 						case en_basic:
