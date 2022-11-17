@@ -67,6 +67,7 @@
     {"id":{"name":"scr_pl_block","path":"scripts/scr_pl_block/scr_pl_block.yy",},"order":14,},
     {"id":{"name":"scr_en_move_jump_collide_mini_fake_decoy","path":"scripts/scr_en_move_jump_collide_mini_fake_decoy/scr_en_move_jump_collide_mini_fake_decoy.yy",},"order":42,},
     {"id":{"name":"spr_en_projectile_lob","path":"sprites/spr_en_projectile_lob/spr_en_projectile_lob.yy",},"order":13,},
+    {"id":{"name":"Sprite42","path":"sprites/Sprite42/Sprite42.yy",},"order":41,},
     {"id":{"name":"ts_ground_dirt","path":"tilesets/ts_ground_dirt/ts_ground_dirt.yy",},"order":0,},
     {"id":{"name":"en_miniboss","path":"objects/en_miniboss/en_miniboss.yy",},"order":20,},
     {"id":{"name":"en_miniboss_roid","path":"objects/en_miniboss_roid/en_miniboss_roid.yy",},"order":23,},
