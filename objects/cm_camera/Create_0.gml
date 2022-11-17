@@ -13,4 +13,7 @@ initializeMiniboss = false;
 xspd = 0;
 yspd = 0;
 
-//image_index = 1;
+//////////////////////////////////////////////
+//Global Variables
+global.paused = false;
+global.totaldialogue = false;

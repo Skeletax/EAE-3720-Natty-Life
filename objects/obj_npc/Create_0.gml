@@ -8,3 +8,4 @@ onGround = false;
 
 talking = false;
 starttalking = false;
+canfreetalk = false;

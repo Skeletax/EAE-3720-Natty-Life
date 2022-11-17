@@ -2,7 +2,7 @@ if (despawn){
 	despawncounter++;
 	if (despawncounter >= despawntimer)
 		instance_destroy(self);
-}else if (!win && !lose && (!camera.miniboss || (camera.miniboss && camera.reachMiniboss))){
+}else if (!win && !lose && (!camera.miniboss || (camera.miniboss && camera.reachMiniboss)) && !global.totaldialogue){
 	scr_pl_input();
 
 	if (!launched)

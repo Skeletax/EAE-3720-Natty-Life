@@ -1,17 +1,18 @@
 if (freed){
 	scr_npc_move_collide();
 	
-	if (initial){
-		scr_npc_dialogue_initial();
+	if (distance_to_object(obj_player) < 25 && initial){
 		initial = false;
-	}else{
-		scr_npc_dialogue_free();
+		with (player.hud){
+			scr_gm_full_screen_dialogue(other.dialogue_initial, "npc");	
+		}
+	}else if (distance_to_object(obj_player) < 75 && canfreetalk){
+		canfreetalk = false;
+		talking = true;
+		dialogue = dialogue_options_freed[irandom(array_length(dialogue_options_freed) - 1)];
+		alarm[2] = room_speed * 3;
 	}
-}else{
-	scr_npc_dialogue_trapped();
-}
-
-if (player.camera.reachMiniboss && !starttalking){
+}else if (!freed && !starttalking){
 	alarm[1] = room_speed * 2;
 	starttalking = true;
 }
