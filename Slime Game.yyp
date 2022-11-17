@@ -153,8 +153,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_Proto","path":"rooms/rm_Proto/rm_Proto.yy",},},
     {"roomId":{"name":"rm_peer","path":"rooms/rm_peer/rm_peer.yy",},},
+    {"roomId":{"name":"rm_Proto","path":"rooms/rm_Proto/rm_Proto.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

@@ -104,6 +104,8 @@ function scr_pl_move_jump_collide(){
 	}
 	
 	if (place_meeting(x, y, obj_goal)){
+		var inst = instance_place(x, y, obj_goal);
 		win = true;
+		room_goto(inst.nextroom);
 	}
 }

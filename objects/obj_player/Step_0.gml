@@ -21,4 +21,6 @@ if (despawn){
 	scr_pl_update_counters();
 }else if (lose){
 	scr_pl_animate();
+}if (win){
+	
 }
