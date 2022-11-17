@@ -4,7 +4,7 @@ if (freed){
 	if (distance_to_object(obj_player) < 25 && initial){
 		initial = false;
 		with (player.hud){
-			scr_gm_full_screen_dialogue(other.dialogue_initial, "npc");	
+			scr_gm_full_screen_dialogue(other.dialogue_initial, obj_npc, 0, 0);	
 		}
 		player.hp = player.maxhp;
 	}else if (distance_to_object(obj_player) < 75 && canfreetalk){

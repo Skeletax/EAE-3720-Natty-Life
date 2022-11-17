@@ -20,6 +20,7 @@ grav = 1;
 jump = 0;
 jumppwr = 17;
 onGround = true;
+drop = 0;
 
 atk = 0;
 atkTime = 10;

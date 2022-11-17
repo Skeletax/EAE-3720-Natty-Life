@@ -5,6 +5,7 @@ function scr_pl_input(){
 		up =  keyboard_check(vk_up) || keyboard_check(ord("W"));
 		down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 		jump = keyboard_check_pressed(vk_space);
+		drop = keyboard_check_pressed(vk_control);
 		atk = mouse_check_button(mb_left);
 		blk = mouse_check_button(mb_right);
 	}

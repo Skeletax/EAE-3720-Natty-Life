@@ -27,11 +27,14 @@ function scr_en_move_jump_collide_basic(){
 		while !place_meeting(x,y+1,env_ground) y++;
 		yspd = 0;
 		onGround = true;
-	}
-	else if (place_meeting(x, y + yspd - 1, env_ground) && yspd < 0){ //If hitting head
+	}else if (place_meeting(x,y + yspd + 1,env_ground_platform) && !place_meeting(x,y,env_ground_platform) && !onGround && yspd > 0) { //If landing on a platform
+		while !place_meeting(x,y+1,env_ground_platform) y++;
+		yspd = 0;
+		onGround = true;
+	}else if (place_meeting(x, y + yspd - 1, env_ground) && yspd < 0){ //If hitting head
 		while (!place_meeting(x, y - 1, env_ground)) y--;
 		yspd = 0;
-	}else if (!place_meeting(x, y + yspd + 1, env_ground) && onGround){ //Falling
+	}else if (!place_meeting(x, y + yspd + 1, env_ground) && !place_meeting(x, y + yspd + 1, env_ground_platform) && onGround){ //Falling off solid ground
 		yspd = yspd + grav; 
 		onGround = false;
 	}else if (!place_meeting(x, y + yspd + 1, env_ground) && !onGround){

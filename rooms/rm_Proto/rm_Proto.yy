@@ -70,6 +70,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"npccage","path":"objects/en_miniboss/en_miniboss.yy",},"objectId":{"name":"en_miniboss","path":"objects/en_miniboss/en_miniboss.yy",},"value":"fake_it_cage",},
           ],"isDnd":false,"objectId":{"name":"en_miniboss_fake","path":"objects/en_miniboss_fake/en_miniboss_fake.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5344.0,"y":960.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_39FA57EF","properties":[],"isDnd":false,"objectId":{"name":"en_tough","path":"objects/en_tough/en_tough.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2112.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F0C0753","properties":[],"isDnd":false,"objectId":{"name":"obj_player_companion","path":"objects/obj_player_companion/obj_player_companion.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":540.0,"y":976.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40A7D0AD","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"maxhp","path":"objects/obj_player/obj_player.yy",},"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"value":"1000",},
           ],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":992.0,},
@@ -997,6 +998,7 @@
     {"name":"faking_it_npc","path":"rooms/rm_Proto/rm_Proto.yy",},
     {"name":"faking_it_glass","path":"rooms/rm_Proto/rm_Proto.yy",},
     {"name":"fake_it_cage","path":"rooms/rm_Proto/rm_Proto.yy",},
+    {"name":"inst_F0C0753","path":"rooms/rm_Proto/rm_Proto.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

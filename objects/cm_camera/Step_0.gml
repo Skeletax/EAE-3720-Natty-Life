@@ -4,7 +4,7 @@ if (initializeMiniboss)
 	scr_cm_initialize_miniboss();
 else if (track && !miniboss){
 	var xCam = obj_player.x - camWidth / 2;
-	var yCam = obj_player.y - (3 * camHeight) / 4;
+	var yCam = obj_player.y - (11 * camHeight) / 16;
 
 	x = xCam;
 	y = yCam;

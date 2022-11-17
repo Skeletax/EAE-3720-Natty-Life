@@ -90,7 +90,8 @@ function scr_pl_move_jump_collide(){
 	}else if (!place_meeting(x, y + yspd + 1, env_ground) && !place_meeting(x, y + yspd + 1, env_ground_platform) && onGround){ //Falling off solid ground
 		yspd = yspd + grav; 
 		onGround = false;
-	}else if (!onGround){
+	}else if (!onGround || drop == 1){
+		onGround = false;
 		yspd = yspd + grav; 
 	}
 
