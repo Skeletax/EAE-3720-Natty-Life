@@ -58,8 +58,8 @@
         "\"Those\\nstereotypes\\nwere so\\nself-limiting!\"",
         "\"I feel free!\"",
       ],"multiselect":true,"filters":[],},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"dialogue_initial","varType":6,"value":"\"Thank for you freeing me! Let me help you out!\", \"That nasty slime pressured me into hating myself and my\\nbody.\", \"Once I started to believe him, he threw me into this\\ncontainer!\", \"Keep up the good work. I have a few friends that were taken\\nby other slimes.\", \"That <flag> over there should bring you closer to one of\\nthem.\", \"Good luck!\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
-        "\"Thank for you freeing me! Let me help you out!\"",
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"dialogue_initial","varType":6,"value":"\"Thank you for freeing me! Let me help you out!\", \"That nasty slime pressured me into hating myself and my\\nbody.\", \"Once I started to believe him, he threw me into this\\ncontainer!\", \"Keep up the good work. I have a few friends that were taken\\nby other slimes.\", \"That <flag> over there should bring you closer to one of\\nthem.\", \"Good luck!\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+        "\"Thank you for freeing me! Let me help you out!\"",
         "\"That nasty slime pressured me into hating myself and my\\nbody.\"",
         "\"Once I started to believe him, he threw me into this\\ncontainer!\"",
         "\"Keep up the good work. I have a few friends that were taken\\nby other slimes.\"",
