@@ -66,6 +66,7 @@
         "\"That <flag> over there should bring you closer to one of\\nthem.\"",
         "\"Good luck!\"",
       ],"multiselect":true,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sideNPC","varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {

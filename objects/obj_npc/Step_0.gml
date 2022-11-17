@@ -1,10 +1,12 @@
 if (freed){
 	scr_npc_move_collide();
 	
-	if (distance_to_object(obj_player) < 25 && initial){
+	if (distance_to_object(obj_player) < 25 && initial && player.onGround && onGround){
 		initial = false;
-		with (player.hud){
-			scr_gm_full_screen_dialogue(other.dialogue_initial, obj_npc, 0, 0);	
+		if (!sideNPC){
+			with (player.hud){
+				scr_gm_full_screen_dialogue(other.dialogue_initial, obj_npc, 0, 0);	
+			}
 		}
 		player.hp = player.maxhp;
 	}else if (distance_to_object(obj_player) < 75 && canfreetalk){
