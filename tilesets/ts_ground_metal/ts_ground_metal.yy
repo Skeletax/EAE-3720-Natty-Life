@@ -20,7 +20,7 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "out_columns": 1,
-  "tile_count": 1,
+  "tile_count": 2,
   "autoTileSets": [
     {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","tiles":[
         1,
@@ -43,7 +43,7 @@
         0,
         0,
         0,
-        2,
+        0,
         0,
         0,
         0,
@@ -77,6 +77,7 @@
   "tileAnimation": {
     "FrameData": [
       0,
+      1,
     ],
     "SerialiseFrameCount": 1,
   },
