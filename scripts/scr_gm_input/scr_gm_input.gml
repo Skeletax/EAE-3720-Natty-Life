@@ -1,5 +1,5 @@
 function scr_gm_input(){
-	if (hud.openfulldialogue){
+	if (!global.paused && hud.openfulldialogue){
 		if (keyboard_check_pressed(vk_escape) ||
 			keyboard_check_pressed(vk_enter) ||
 			keyboard_check_pressed(vk_space) ||
@@ -10,7 +10,7 @@ function scr_gm_input(){
 				scr_gm_advance_dialogue();
 		}
 	}else{
-		if keyboard_check_pressed(vk_escape) game_end();
+		if keyboard_check_pressed(vk_escape) global.paused = !global.paused;
 		if keyboard_check_pressed(ord("R")) game_restart();
 	}
 }

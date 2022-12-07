@@ -1,3 +1,5 @@
-scr_proj_collision();
+if (!global.paused){
+	scr_proj_collision();
 
-scr_proj_move();
+	scr_proj_move();
+}

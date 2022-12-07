@@ -1,3 +1,5 @@
-scr_pl_block_move();
+if (!global.paused){
+	scr_pl_block_move();
 
-scr_pl_block_update_counters();
+	scr_pl_block_update_counters();
+}
