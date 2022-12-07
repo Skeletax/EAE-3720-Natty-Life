@@ -1,5 +1,5 @@
 global.tips = ["<STARTING TIPS 1-5>", 
-				"Hi there! My name is <NAME>!\n\n                        (press \"E\", \"Space\", \"Enter\", or left click to proceed)",
+				"Hi there! My name is Hunk!\n\n                        (press \"E\", \"Space\", \"Enter\", or left click to proceed)",
 				"As you know, the local gym's been getting a little, well...\n...negative",
 				"That's why I'm here. I am going to help you get all of these toxic vices out of this gym,\nand out of this community.",
 				"To get past these vices, use the syringe gun in your hand to convert the slimey things\nfrom the bad vices they are into positive reinforcement!\n                        (use mouse to aim and left click to fire curing syringe)",

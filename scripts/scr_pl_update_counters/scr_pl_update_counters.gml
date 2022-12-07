@@ -10,7 +10,7 @@ function scr_pl_update_counters(){
 		blkTimeCounter--;
 		if (blkTimeCounter == 0){
 			image_index = 0;
-			xspd /= blkspdreduction;
+			//xspd /= blkspdreduction;
 		}
 	}else if (blkCooldownCounter > 0)
 		blkCooldownCounter--;

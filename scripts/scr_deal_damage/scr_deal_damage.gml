@@ -3,7 +3,7 @@ function scr_deal_damage(target, damage, source){ //if the source is a player pr
 		target.hp -= damage;
 		if (variable_instance_exists(target, "obj_player_block"))
 			scr_pl_block_update_counters();
-		if (target.hp <= 0){
+		if (target.hp <= 0 && target.object_index != obj_player_block){
 			if (source.object_index == obj_projectile){
 				var drop = instance_create_layer(source.x, source.y, "Entities", obj_recruitable);
 				with (drop){

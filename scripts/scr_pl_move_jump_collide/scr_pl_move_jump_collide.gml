@@ -43,6 +43,7 @@ function scr_pl_move_jump_collide(){
 	if (jump && onGround){ 
 		yspd -= jumppwr;
 		onGround = false;
+		xspd = baseSpeed + jumpBoost;
 	}
 
 	var potentialx = x + xspd * x_dir;
@@ -74,10 +75,12 @@ function scr_pl_move_jump_collide(){
 		while !place_meeting(x,y+1,env_ground) y++;
 		yspd = 0;
 		onGround = true;
+		xspd = baseSpeed;
 	}else if (place_meeting(x,y + yspd + 1,env_ground_platform) && !place_meeting(x,y,env_ground_platform) && !onGround && yspd > 0) { //If landing on a platform
 		while !place_meeting(x,y+1,env_ground_platform) y++;
 		yspd = 0;
 		onGround = true;
+		xspd = baseSpeed;
 	}else if (!point_in_rectangle(camleft, potentialy - 1 - sprite_height, camleft, camtop, camright, cambot) && yspd < 0){ //If falling below camera view
 		while (point_in_rectangle(camleft, y - 1 - sprite_height, camleft, camtop, camright, cambot)) y--;
 		yspd = 0;
@@ -90,7 +93,7 @@ function scr_pl_move_jump_collide(){
 	}else if (!place_meeting(x, y + yspd + 1, env_ground) && !place_meeting(x, y + yspd + 1, env_ground_platform) && onGround){ //Falling off solid ground
 		yspd = yspd + grav; 
 		onGround = false;
-	}else if (!onGround || drop == 1){
+	}else if (!onGround || (drop == 1 && (place_meeting(x,y + yspd + 1,env_ground_platform) && !place_meeting(x,y,env_ground_platform)))){
 		onGround = false;
 		yspd = yspd + grav; 
 	}

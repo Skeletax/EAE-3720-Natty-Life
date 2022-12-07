@@ -14,7 +14,7 @@ launchdir = 0;
 launchspdx = 5;
 launchspdy = 20;
 
-xspd = 6;
+xspd = baseSpeed;
 yspd = 0;
 grav = 1;
 jump = 0;
