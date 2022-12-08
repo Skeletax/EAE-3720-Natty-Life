@@ -1,9 +1,8 @@
 scr_gm_input();
 
 if (!global.paused){
-	/*instance_activate_all();
-	surface_free(surface);
-	surface = -1;*/
+	if (instance_exists(gui_pause_menu))
+		instance_destroy(gui_pause_menu);
 	
 	minibossPos = instance_nearest(x, y, cm_miniboss_point);
 
@@ -25,14 +24,10 @@ if (!global.paused){
 		camera_set_view_pos(camView, x, y);
 	}
 }else{
-	/*if (!surface_exists(surface)){
-		if (surface == -1)
-			instance_deactivate_all(true);
-			surface = surface_create(room_width, room_height);
-			surface_set_target(surface);
-			draw_surface(application_surface, 0, 0);
-			surface_reset_target();
-	}else{
-		scr_draw_pause_menu();
-	}*/
+	if (!instance_exists(gui_pause_menu)){
+		pauseMenu = instance_create_layer(x + 224, y + 96, "NonEntities", gui_pause_menu);
+		with (pauseMenu){
+			scr_pause_initialize_buttons();
+		}
+	}
 }
