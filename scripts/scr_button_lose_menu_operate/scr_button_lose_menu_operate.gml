@@ -1,4 +1,4 @@
-function scr_button_pause_menu_operate(){
+function scr_button_lose_menu_operate(){
 	switch (Function){
 		case "restart":
 			draw_set_halign(fa_left);
