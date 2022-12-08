@@ -1,8 +1,23 @@
 if (!global.paused){
 	if (despawn){
 		despawncounter++;
-		if (despawncounter >= despawntimer)
-			instance_destroy(self);
+		if (despawncounter >= despawntimer){
+			lose = true;
+			scr_cm_stop_track(camera);
+			instance_destroy(arm);
+			if (instance_exists(shield))
+				instance_destroy(shield);
+				
+			with (camera){
+				if (instance_exists(gui_pause_menu))
+					instance_destroy(gui_pause_menu);
+		
+				menu = instance_create_layer(x + 224, y + 96, "Menus", gui_lose_menu);
+				with (menu){
+					scr_lose_initialize_buttons();
+				}
+			}
+		}
 	}else if (!win && !lose && (!camera.miniboss || (camera.miniboss && camera.reachMiniboss)) && !global.totaldialogue){
 		scr_pl_input();
 
@@ -21,6 +36,7 @@ if (!global.paused){
 
 		scr_pl_update_counters();
 	}else if (lose){
+		audio_stop_sound(snd_Walking_Dirt);
 		scr_pl_animate();
 	}if (win){
 	
