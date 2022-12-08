@@ -31,7 +31,11 @@
           ],"isDnd":false,"objectId":{"name":"gui_button","path":"objects/gui_button/gui_button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":9.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":960.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37AAAFD3","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"currentButton","path":"objects/gui_main_menu/gui_main_menu.yy",},"objectId":{"name":"gui_main_menu","path":"objects/gui_main_menu/gui_main_menu.yy",},"value":"StartButton",},
-          ],"isDnd":false,"objectId":{"name":"gui_main_menu","path":"objects/gui_main_menu/gui_main_menu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":128.0,},
+          ],"isDnd":false,"objectId":{"name":"gui_main_menu","path":"objects/gui_main_menu/gui_main_menu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":352.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"CreditsButton","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"Function","path":"objects/gui_button/gui_button.yy",},"objectId":{"name":"gui_button","path":"objects/gui_button/gui_button.yy",},"value":"\"credit\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"buttonText","path":"objects/gui_button/gui_button.yy",},"objectId":{"name":"gui_button","path":"objects/gui_button/gui_button.yy",},"value":"\"Credits\"",},
+          ],"isDnd":false,"objectId":{"name":"gui_button","path":"objects/gui_button/gui_button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.5,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1760.0,"y":960.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"bg_mainscreen","path":"sprites/bg_mainscreen/bg_mainscreen.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
@@ -43,6 +47,7 @@
     {"name":"HelpButton","path":"rooms/rm_menus/rm_menus.yy",},
     {"name":"QuitButton","path":"rooms/rm_menus/rm_menus.yy",},
     {"name":"inst_37AAAFD3","path":"rooms/rm_menus/rm_menus.yy",},
+    {"name":"CreditsButton","path":"rooms/rm_menus/rm_menus.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
