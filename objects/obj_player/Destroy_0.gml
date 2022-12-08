@@ -1,5 +1,3 @@
-show_message("Player has died");
-
 lose = true;
 scr_cm_stop_track(camera);
 instance_destroy(arm);
