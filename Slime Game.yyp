@@ -30,6 +30,7 @@
     {"id":{"name":"en_magma","path":"objects/en_magma/en_magma.yy",},"order":16,},
     {"id":{"name":"spr_poster_littlemuscles_3","path":"sprites/spr_poster_littlemuscles_3/spr_poster_littlemuscles_3.yy",},"order":63,},
     {"id":{"name":"spr_npc_cage","path":"sprites/spr_npc_cage/spr_npc_cage.yy",},"order":34,},
+    {"id":{"name":"bg_credits_menu","path":"sprites/bg_credits_menu/bg_credits_menu.yy",},"order":92,},
     {"id":{"name":"scr_en_update_counters_mini_fake_decoy","path":"scripts/scr_en_update_counters_mini_fake_decoy/scr_en_update_counters_mini_fake_decoy.yy",},"order":41,},
     {"id":{"name":"spr_projectile","path":"sprites/spr_projectile/spr_projectile.yy",},"order":2,},
     {"id":{"name":"en_miniboss_fake_telepoints","path":"objects/en_miniboss_fake_telepoints/en_miniboss_fake_telepoints.yy",},"order":29,},
@@ -105,6 +106,7 @@
     {"id":{"name":"spr_white_board","path":"sprites/spr_white_board/spr_white_board.yy",},"order":86,},
     {"id":{"name":"gui_pause_menu","path":"objects/gui_pause_menu/gui_pause_menu.yy",},"order":39,},
     {"id":{"name":"ts_ground_dirt","path":"tilesets/ts_ground_dirt/ts_ground_dirt.yy",},"order":0,},
+    {"id":{"name":"bg_controls_menu","path":"sprites/bg_controls_menu/bg_controls_menu.yy",},"order":93,},
     {"id":{"name":"en_miniboss","path":"objects/en_miniboss/en_miniboss.yy",},"order":20,},
     {"id":{"name":"spr_poster_yourweak_3","path":"sprites/spr_poster_yourweak_3/spr_poster_yourweak_3.yy",},"order":75,},
     {"id":{"name":"en_miniboss_roid","path":"objects/en_miniboss_roid/en_miniboss_roid.yy",},"order":23,},
@@ -215,6 +217,8 @@
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
@@ -251,6 +255,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.9.1.51",
   },
 }
