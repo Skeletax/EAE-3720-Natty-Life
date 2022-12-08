@@ -24,9 +24,9 @@ if (!global.paused){
 		camera_set_view_pos(camView, x, y);
 	}
 }else{
-	if (!instance_exists(gui_pause_menu)){
-		pauseMenu = instance_create_layer(x + 224, y + 96, "NonEntities", gui_pause_menu);
-		with (pauseMenu){
+	if (!instance_exists(gui_pause_menu) || !instance_exists(gui_lose_menu)){
+		menu = instance_create_layer(x + 224, y + 96, "Menus", gui_pause_menu);
+		with (menu){
 			scr_pause_initialize_buttons();
 		}
 	}

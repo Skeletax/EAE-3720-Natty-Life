@@ -29,9 +29,13 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"buttonFont","path":"objects/gui_button/gui_button.yy",},"objectId":{"name":"gui_button","path":"objects/gui_button/gui_button.yy",},"value":"ft_pause_menu",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"menu","path":"objects/gui_button/gui_button.yy",},"objectId":{"name":"gui_button","path":"objects/gui_button/gui_button.yy",},"value":"gui_pause_menu",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

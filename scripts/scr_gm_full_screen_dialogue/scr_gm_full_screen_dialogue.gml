@@ -16,5 +16,5 @@ function scr_gm_full_screen_dialogue(dialoguelist, speaker, startindex, endindex
 	scr_gm_advance_dialogue();
 	openfulldialogue = true;
 	dialogueinitialized = false;
-	alarm[0] = room_speed * 1.5;
+	alarm[0] = room_speed * 1;
 }
