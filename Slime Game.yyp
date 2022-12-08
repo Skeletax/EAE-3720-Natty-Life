@@ -10,7 +10,6 @@
     {"id":{"name":"spr_pl_companion_point","path":"sprites/spr_pl_companion_point/spr_pl_companion_point.yy",},"order":40,},
     {"id":{"name":"obj_en_projectile_burst","path":"objects/obj_en_projectile_burst/obj_en_projectile_burst.yy",},"order":19,},
     {"id":{"name":"spr_npc_cage_glass","path":"sprites/spr_npc_cage_glass/spr_npc_cage_glass.yy",},"order":35,},
-    {"id":{"name":"Natty_Life_Background_2","path":"sprites/Natty_Life_Background_2/Natty_Life_Background_2.yy",},"order":17,},
     {"id":{"name":"spr_en_mini_roid","path":"sprites/spr_en_mini_roid/spr_en_mini_roid.yy",},"order":18,},
     {"id":{"name":"scr_en_proj_lob_move","path":"scripts/scr_en_proj_lob_move/scr_en_proj_lob_move.yy",},"order":21,},
     {"id":{"name":"spr_pl_companion","path":"sprites/spr_pl_companion/spr_pl_companion.yy",},"order":39,},
@@ -111,8 +110,11 @@
     {"id":{"name":"scr_cm_stop_track","path":"scripts/scr_cm_stop_track/scr_cm_stop_track.yy",},"order":10,},
     {"id":{"name":"tl_ground","path":"sprites/tl_ground/tl_ground.yy",},"order":0,},
     {"id":{"name":"ft_pl_companion_full","path":"fonts/ft_pl_companion_full/ft_pl_companion_full.yy",},"order":3,},
+<<<<<<< Updated upstream
     {"id":{"name":"gui_button_pause","path":"objects/gui_button_pause/gui_button_pause.yy",},"order":40,},
     {"id":{"name":"JwmrEC1pv6TNjS6RuuOi__1__dwno8","path":"sprites/JwmrEC1pv6TNjS6RuuOi__1__dwno8/JwmrEC1pv6TNjS6RuuOi__1__dwno8.yy",},"order":15,},
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"scr_pl_update_counters","path":"scripts/scr_pl_update_counters/scr_pl_update_counters.yy",},"order":4,},
     {"id":{"name":"cm_resolution","path":"sprites/cm_resolution/cm_resolution.yy",},"order":19,},
     {"id":{"name":"scr_gm_full_screen_dialogue","path":"scripts/scr_gm_full_screen_dialogue/scr_gm_full_screen_dialogue.yy",},"order":48,},
@@ -133,7 +135,6 @@
     {"id":{"name":"obj_npc_cage_glass","path":"objects/obj_npc_cage_glass/obj_npc_cage_glass.yy",},"order":34,},
     {"id":{"name":"scr_en_move_jump_collide_mini_roid","path":"scripts/scr_en_move_jump_collide_mini_roid/scr_en_move_jump_collide_mini_roid.yy",},"order":31,},
     {"id":{"name":"spr_player_arm","path":"sprites/spr_player_arm/spr_player_arm.yy",},"order":12,},
-    {"id":{"name":"Natty_Life_Background_1","path":"sprites/Natty_Life_Background_1/Natty_Life_Background_1.yy",},"order":16,},
     {"id":{"name":"scr_en_check_player_collision_mini","path":"scripts/scr_en_check_player_collision_mini/scr_en_check_player_collision_mini.yy",},"order":32,},
     {"id":{"name":"en_boss","path":"objects/en_boss/en_boss.yy",},"order":24,},
     {"id":{"name":"snd_Walking_Dirt","path":"sounds/snd_Walking_Dirt/snd_Walking_Dirt.yy",},"order":2,},
