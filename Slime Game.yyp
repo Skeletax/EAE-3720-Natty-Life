@@ -110,6 +110,7 @@
     {"id":{"name":"scr_pl_move_jump_collide","path":"scripts/scr_pl_move_jump_collide/scr_pl_move_jump_collide.yy",},"order":1,},
     {"id":{"name":"gui_hud","path":"objects/gui_hud/gui_hud.yy",},"order":7,},
     {"id":{"name":"ft_gui","path":"fonts/ft_gui/ft_gui.yy",},"order":2,},
+    {"id":{"name":"ft_mainscreen","path":"fonts/ft_mainscreen/ft_mainscreen.yy",},"order":5,},
     {"id":{"name":"obj_npc_cage","path":"objects/obj_npc_cage/obj_npc_cage.yy",},"order":33,},
     {"id":{"name":"scr_en_fireball","path":"scripts/scr_en_fireball/scr_en_fireball.yy",},"order":22,},
     {"id":{"name":"rm_menus","path":"rooms/rm_menus/rm_menus.yy",},"order":2,},
