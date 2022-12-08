@@ -1,3 +1,8 @@
+audio_stop_all();
+audio_play_sound(snd_Background_Music, 1, true);
+
+
+
 left = 0;
 right = 0;
 up = 0;
