@@ -1,6 +1,3 @@
-image_index = 0;
-
-hovered = false;
-clicked = false;
+event_inherited();
 
 image_xscale = 5;
