@@ -1,4 +1,4 @@
-if ((!menu.credits && !menu.help) || immune){
+if ((!menu.credits && !menu.help) || show){
 	draw_self();
 	draw_set_font(buttonFont);
 	draw_set_color(buttonColor);

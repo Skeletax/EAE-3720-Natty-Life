@@ -8,34 +8,20 @@ function scr_button_main_menu_operate(){
 		case "help":
 			menu.credits = false;
 			menu.help = true;
+			//menu.returnButton.show = true;
 			break;
-			var ret = instance_create_layer(1760, 960, "Instances", gui_button);
-			with (ret){
-				Function = "return";
-				buttonText = "Return";
-				image_xscale = 4.5;
-				image_yscale = 3;
-				immune = true;
-			}
 		case "quit":
 			game_end();
 			break;
 		case "credit":
 			menu.help = false;
 			menu.credits = true;
-			var ret = instance_create_layer(x, y, "Instances", gui_button);
-			with (ret){
-				Function = "return";
-				buttonText = "Return";
-				image_xscale = 4.5;
-				image_yscale = 3;
-				immune = true;
-			}
+			//menu.returnButton.show = true;
 			break;
 		case "return":
 			menu.help = false;
 			menu.credits = false;
-			instance_destroy(self);
+			show = false;
 			break;
 		case "default":
 		default:
