@@ -167,6 +167,7 @@
   ],
   "Options": [
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
@@ -198,6 +199,11 @@
 =======
 >>>>>>> parent of 63c4352 (:))
 >>>>>>> Stashed changes
+=======
+    {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+>>>>>>> parent of 6087705 (Update Slime Game.yyp)
   ],
   "defaultScriptType": 1,
   "isEcma": false,
