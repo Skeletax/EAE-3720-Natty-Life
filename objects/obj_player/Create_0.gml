@@ -1,3 +1,5 @@
+audio_stop_all();
+
 left = 0;
 right = 0;
 up = 0;
@@ -51,3 +53,4 @@ walkingframes = 10
 walkingframecount = 0;
 walkingframestart = 0;
 
+audio_play_sound(snd_Background_Music, 1, true);

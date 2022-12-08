@@ -14,7 +14,7 @@ function scr_button_lose_menu_operate(){
 			break;
 		case "default":
 		default:
-			show_message("Uh oh... Poopoo... Stinky... Haha");
+			show_message("When you, you when, me when, me when your mom, your mom...");
 			break;
 	}
 }
