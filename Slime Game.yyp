@@ -167,16 +167,27 @@
   ],
   "Options": [
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
 =======
+=======
+>>>>>>> fa86d9e37431a2dc3ca1af8186ae3650e431825d
     {"name":"Linux","path":"options/linux/options_linux.yy",},
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
+<<<<<<< HEAD
 >>>>>>> parent of 63c4352 (:))
+=======
+=======
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+>>>>>>> 71f9323b5237b0d179224f778ac4224093ea9120
+>>>>>>> fa86d9e37431a2dc3ca1af8186ae3650e431825d
   ],
   "defaultScriptType": 1,
   "isEcma": false,
