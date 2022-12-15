@@ -96,6 +96,7 @@
     {"id":{"name":"scr_en_move_jump_collide_mini_peer","path":"scripts/scr_en_move_jump_collide_mini_peer/scr_en_move_jump_collide_mini_peer.yy",},"order":29,},
     {"id":{"name":"snd_Grunt_1","path":"sounds/snd_Grunt_1/snd_Grunt_1.yy",},"order":10,},
     {"id":{"name":"obj_player_companion_talking_point","path":"objects/obj_player_companion_talking_point/obj_player_companion_talking_point.yy",},"order":36,},
+    {"id":{"name":"bg_city_proto","path":"sprites/bg_city_proto/bg_city_proto.yy",},"order":96,},
     {"id":{"name":"spr_npc","path":"sprites/spr_npc/spr_npc.yy",},"order":5,},
     {"id":{"name":"spr_towel","path":"sprites/spr_towel/spr_towel.yy",},"order":89,},
     {"id":{"name":"scr_pl_launch","path":"scripts/scr_pl_launch/scr_pl_launch.yy",},"order":33,},
@@ -228,6 +229,8 @@
     {"id":{"name":"rm_Proto","path":"rooms/rm_Proto/rm_Proto.yy",},"order":0,},
   ],
   "Options": [
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -267,6 +270,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.11.0.54",
   },
 }
