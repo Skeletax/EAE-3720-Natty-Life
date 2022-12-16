@@ -2,6 +2,7 @@ function scr_en_fireball(){
 	if (atkCooldownCounter == 0 && distance_to_object(player) < 500){
 		atkTimeCounter = atkTime;
 		atkCooldownCounter = atkCooldown;
+		audio_play_sound(snd_Slime_Shooting, 1, 0);
 		//image_index = 1;
 		var proj = instance_create_layer(x, y - 5, "Projectiles", obj_en_projectile_fireball);
 		with (proj){

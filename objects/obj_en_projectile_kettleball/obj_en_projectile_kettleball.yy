@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "en_miniboss_fake",
+  "name": "obj_en_projectile_kettleball",
   "spriteId": {
-    "name": "spr_en_mini_fake",
-    "path": "sprites/spr_en_mini_fake/spr_en_mini_fake.yy",
+    "name": "spr_kettlebell_1",
+    "path": "sprites/spr_kettlebell_1/spr_kettlebell_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "en_miniboss",
-    "path": "objects/en_miniboss/en_miniboss.yy",
+    "name": "obj_en_projectile_burst",
+    "path": "objects/obj_en_projectile_burst/obj_en_projectile_burst.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,13 +29,10 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"maxhp","path":"objects/obj_enemy/obj_enemy.yy",},"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"value":"250",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

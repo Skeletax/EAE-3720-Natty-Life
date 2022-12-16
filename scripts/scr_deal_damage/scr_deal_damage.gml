@@ -1,6 +1,29 @@
 function scr_deal_damage(target, damage, source){ //if the source is a player projectile, then it is a recruitable attack. Anything else will not recruit
 	if (target.object_index != obj_player || (target.object_index == obj_player && !target.lose)){
 		target.hp -= damage;
+		switch (target.object_index){
+			case obj_player:
+				audio_play_sound(snd_pl_Grunt, 1, 0);
+				break;
+			case en_grunts:
+			case en_basic:
+			case en_tough:
+			case en_lobber:
+			case en_mimic:
+			case en_magma:
+			case en_fly:
+				if (source.object_index == obj_player)
+					audio_play_sound(snd_Slime_Bouncing, 1, 0);
+				else
+					audio_play_sound(snd_Slime_Moving, 1, 0);
+				break;
+			case en_miniboss:
+			case en_miniboss_fake:
+			case en_miniboss_peer:
+				audio_play_sound(snd_Grunt_1, 1, 0);
+				break;
+		}
+		
 		if (variable_instance_exists(target, "obj_player_block"))
 			scr_pl_block_update_counters();
 		if (target.hp <= 0 && target.object_index != obj_player_block){

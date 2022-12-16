@@ -19,3 +19,6 @@ if (instance_exists(player) && !(player.win || player.lose || player.despawn)){
 		
 	}
 }
+if (player.win){
+	draw_sprite(bg_win, 0, 0, 0);
+}

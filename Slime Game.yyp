@@ -12,6 +12,7 @@
     {"id":{"name":"snd_Block_Watery","path":"sounds/snd_Block_Watery/snd_Block_Watery.yy",},"order":9,},
     {"id":{"name":"en_grunts","path":"objects/en_grunts/en_grunts.yy",},"order":27,},
     {"id":{"name":"spr_pl_companion_point","path":"sprites/spr_pl_companion_point/spr_pl_companion_point.yy",},"order":40,},
+    {"id":{"name":"snd_pl_Grunt","path":"sounds/snd_pl_Grunt/snd_pl_Grunt.yy",},"order":15,},
     {"id":{"name":"obj_en_projectile_burst","path":"objects/obj_en_projectile_burst/obj_en_projectile_burst.yy",},"order":19,},
     {"id":{"name":"spr_npc_cage_glass","path":"sprites/spr_npc_cage_glass/spr_npc_cage_glass.yy",},"order":35,},
     {"id":{"name":"Natty_Life_Background_2","path":"sprites/Natty_Life_Background_2/Natty_Life_Background_2.yy",},"order":17,},
@@ -35,6 +36,7 @@
     {"id":{"name":"bg_credits_menu","path":"sprites/bg_credits_menu/bg_credits_menu.yy",},"order":92,},
     {"id":{"name":"scr_en_update_counters_mini_fake_decoy","path":"scripts/scr_en_update_counters_mini_fake_decoy/scr_en_update_counters_mini_fake_decoy.yy",},"order":41,},
     {"id":{"name":"spr_projectile","path":"sprites/spr_projectile/spr_projectile.yy",},"order":2,},
+    {"id":{"name":"obj_en_projectile_kettleball","path":"objects/obj_en_projectile_kettleball/obj_en_projectile_kettleball.yy",},"order":43,},
     {"id":{"name":"en_miniboss_fake_telepoints","path":"objects/en_miniboss_fake_telepoints/en_miniboss_fake_telepoints.yy",},"order":29,},
     {"id":{"name":"scr_button_pause_menu_operate","path":"scripts/scr_button_pause_menu_operate/scr_button_pause_menu_operate.yy",},"order":54,},
     {"id":{"name":"scr_en_move_jump_collide_smart","path":"scripts/scr_en_move_jump_collide_smart/scr_en_move_jump_collide_smart.yy",},"order":18,},
@@ -70,7 +72,6 @@
     {"id":{"name":"en_lobber","path":"objects/en_lobber/en_lobber.yy",},"order":13,},
     {"id":{"name":"spr_weight_bar","path":"sprites/spr_weight_bar/spr_weight_bar.yy",},"order":85,},
     {"id":{"name":"scr_pl_animate","path":"scripts/scr_pl_animate/scr_pl_animate.yy",},"order":25,},
-    {"id":{"name":"spr_en_mini_fake","path":"sprites/spr_en_mini_fake/spr_en_mini_fake.yy",},"order":17,},
     {"id":{"name":"spr_en_basic","path":"sprites/spr_en_basic/spr_en_basic.yy",},"order":28,},
     {"id":{"name":"spr_towel_rack","path":"sprites/spr_towel_rack/spr_towel_rack.yy",},"order":90,},
     {"id":{"name":"en_mimic","path":"objects/en_mimic/en_mimic.yy",},"order":15,},
@@ -176,6 +177,7 @@
     {"id":{"name":"spr_kettlebell_2","path":"sprites/spr_kettlebell_2/spr_kettlebell_2.yy",},"order":53,},
     {"id":{"name":"obj_npc_cage","path":"objects/obj_npc_cage/obj_npc_cage.yy",},"order":33,},
     {"id":{"name":"scr_en_fireball","path":"scripts/scr_en_fireball/scr_en_fireball.yy",},"order":22,},
+    {"id":{"name":"spr_en_mini_fake","path":"sprites/spr_en_mini_fake/spr_en_mini_fake.yy",},"order":97,},
     {"id":{"name":"spr_kettlebell_1","path":"sprites/spr_kettlebell_1/spr_kettlebell_1.yy",},"order":52,},
     {"id":{"name":"spr_poster_yourweak_1","path":"sprites/spr_poster_yourweak_1/spr_poster_yourweak_1.yy",},"order":73,},
     {"id":{"name":"spr_bookshelf","path":"sprites/spr_bookshelf/spr_bookshelf.yy",},"order":46,},
@@ -229,8 +231,6 @@
     {"id":{"name":"rm_Proto","path":"rooms/rm_Proto/rm_Proto.yy",},"order":0,},
   ],
   "Options": [
-    {"name":"Linux","path":"options/linux/options_linux.yy",},
-    {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -270,6 +270,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.11.1.56",
   },
 }

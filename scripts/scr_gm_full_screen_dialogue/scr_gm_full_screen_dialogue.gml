@@ -1,5 +1,6 @@
 function scr_gm_full_screen_dialogue(dialoguelist, speaker, startindex, endindex){
 	global.totaldialogue = true;
+	audio_play_sound(snd_Speaking, 1, 0);
 	switch(speaker.object_index){
 		case obj_npc:
 			dialoguefont = ft_npc_full;

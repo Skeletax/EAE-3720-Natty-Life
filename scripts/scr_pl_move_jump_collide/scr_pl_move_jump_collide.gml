@@ -41,6 +41,7 @@ function scr_pl_move_jump_collide(){
 		}
 	}
 	if (jump && onGround){ 
+		audio_play_sound(snd_Jump_Liftoff, 1, 0);
 		yspd -= jumppwr;
 		onGround = false;
 		xspd = baseSpeed + jumpBoost;
@@ -76,11 +77,13 @@ function scr_pl_move_jump_collide(){
 		yspd = 0;
 		onGround = true;
 		xspd = baseSpeed;
+		audio_play_sound(snd_Jump_Land, 1, 0);
 	}else if (place_meeting(x,y + yspd + 1,env_ground_platform) && !place_meeting(x,y,env_ground_platform) && !onGround && yspd > 0) { //If landing on a platform
 		while !place_meeting(x,y+1,env_ground_platform) y++;
 		yspd = 0;
 		onGround = true;
 		xspd = baseSpeed;
+		audio_play_sound(snd_Jump_Land, 1, 0);
 	}else if (!point_in_rectangle(camleft, potentialy - 1 - sprite_height, camleft, camtop, camright, cambot) && yspd < 0){ //If falling below camera view
 		while (point_in_rectangle(camleft, y - 1 - sprite_height, camleft, camtop, camright, cambot)) y--;
 		yspd = 0;
@@ -110,6 +113,11 @@ function scr_pl_move_jump_collide(){
 	if (place_meeting(x, y, obj_goal)){
 		var inst = instance_place(x, y, obj_goal);
 		win = true;
-		room_goto(inst.nextroom);
+		if (inst.nextroom = rm_menus){
+			audio_stop_all();
+			global.paused = true;
+			alarm[0] = room_speed * 3;
+		}else
+			room_goto(inst.nextroom);
 	}
 }

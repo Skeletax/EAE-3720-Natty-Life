@@ -2,6 +2,7 @@ function scr_pl_block(){
 	if (blk && blkCooldownCounter == 0 && blkCount > 0){
 		blkTimeCounter = blkTime;
 		blkCooldownCounter = blkCooldown;
+		audio_play_sound(snd_Block_Watery, 1, 0);
 		//xspd *= blkspdreduction;
 		image_index = 4;
 		shield = instance_create_layer(x, y, "Entities", obj_player_block);
